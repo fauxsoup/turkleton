@@ -1,0 +1,52 @@
+{
+  "name": "@turkleton/client",
+  "version": "0.1.0",
+  "description": "turkleton web ui",
+  "author": "Zachary Hueras <zhueras@amdtelemedicine.com>",
+  "homepage": "https://github.com/fauxsoup/turkleton/tree/master/packages/client#readme",
+  "license": "MIT",
+  "main": "lib/turkleton.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fauxsoup/turkleton.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/fauxsoup/turkleton/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@forml/core": "^1.5.12",
+    "@forml/decorator-mui": "^1.0.16",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/pickers": "^3.2.10",
+    "axios": "^0.21.1",
+    "babel-loader": "^8.2.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "typeface-roboto": "^1.1.13",
+    "webpack": "^5.13.0",
+    "webpack-cli": "^4.3.1"
+  },
+  "dependencies": {
+    "@turkleton/common": "file:../common"
+  }
+}
